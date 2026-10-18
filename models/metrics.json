@@ -108,14 +108,14 @@
           "max_samples": 0.7,
           "n_estimators": 50
         },
-        "mean_f1": 0.7669
+        "mean_f1": 0.7644
       },
       {
         "params": {
           "max_samples": 0.7,
           "n_estimators": 100
         },
-        "mean_f1": 0.76
+        "mean_f1": 0.7625
       },
       {
         "params": {
@@ -129,14 +129,14 @@
           "max_samples": 1.0,
           "n_estimators": 100
         },
-        "mean_f1": 0.776
+        "mean_f1": 0.7703
       }
     ],
     "best_params": {
       "max_samples": 1.0,
       "n_estimators": 100
     },
-    "cv_best_f1": 0.776,
+    "cv_best_f1": 0.7703,
     "test_accuracy": 0.9865,
     "test_precision": 0.8596,
     "test_recall": 0.7206,
@@ -185,48 +185,48 @@
           "max_depth": 10,
           "n_estimators": 100
         },
-        "mean_f1": 0.5832
+        "mean_f1": 0.5886
       },
       {
         "params": {
           "max_depth": 10,
           "n_estimators": 200
         },
-        "mean_f1": 0.5764
+        "mean_f1": 0.5747
       },
       {
         "params": {
           "max_depth": null,
           "n_estimators": 100
         },
-        "mean_f1": 0.6494
+        "mean_f1": 0.6525
       },
       {
         "params": {
           "max_depth": null,
           "n_estimators": 200
         },
-        "mean_f1": 0.6565
+        "mean_f1": 0.6501
       }
     ],
     "best_params": {
       "max_depth": null,
-      "n_estimators": 200
+      "n_estimators": 100
     },
-    "cv_best_f1": 0.6565,
-    "test_accuracy": 0.9815,
-    "test_precision": 0.8974,
-    "test_recall": 0.5147,
-    "test_f1": 0.6542,
-    "test_roc_auc": 0.9721,
+    "cv_best_f1": 0.6525,
+    "test_accuracy": 0.9805,
+    "test_precision": 0.8919,
+    "test_recall": 0.4853,
+    "test_f1": 0.6286,
+    "test_roc_auc": 0.9653,
     "confusion_matrix": [
       [
         1928,
         4
       ],
       [
-        33,
-        35
+        35,
+        33
       ]
     ]
   },
@@ -330,7 +330,7 @@
           "max_depth": 5,
           "n_estimators": 100
         },
-        "mean_f1": 0.7364
+        "mean_f1": 0.7401
       },
       {
         "params": {
@@ -338,7 +338,7 @@
           "max_depth": 5,
           "n_estimators": 200
         },
-        "mean_f1": 0.7433
+        "mean_f1": 0.7464
       },
       {
         "params": {
@@ -378,12 +378,12 @@
       "max_depth": 5,
       "n_estimators": 200
     },
-    "cv_best_f1": 0.7433,
+    "cv_best_f1": 0.7464,
     "test_accuracy": 0.9865,
     "test_precision": 0.8727,
     "test_recall": 0.7059,
     "test_f1": 0.7805,
-    "test_roc_auc": 0.9675,
+    "test_roc_auc": 0.9676,
     "confusion_matrix": [
       [
         1925,
@@ -417,7 +417,7 @@
           "max_depth": 3,
           "n_estimators": 100
         },
-        "mean_f1": 0.6065
+        "mean_f1": 0.5955
       },
       {
         "params": {
@@ -425,7 +425,7 @@
           "max_depth": 3,
           "n_estimators": 200
         },
-        "mean_f1": 0.6613
+        "mean_f1": 0.6644
       },
       {
         "params": {
@@ -433,7 +433,7 @@
           "max_depth": 5,
           "n_estimators": 100
         },
-        "mean_f1": 0.7385
+        "mean_f1": 0.721
       },
       {
         "params": {
@@ -441,7 +441,7 @@
           "max_depth": 5,
           "n_estimators": 200
         },
-        "mean_f1": 0.7463
+        "mean_f1": 0.7284
       },
       {
         "params": {
@@ -449,7 +449,7 @@
           "max_depth": 3,
           "n_estimators": 100
         },
-        "mean_f1": 0.6678
+        "mean_f1": 0.6686
       },
       {
         "params": {
@@ -457,7 +457,7 @@
           "max_depth": 3,
           "n_estimators": 200
         },
-        "mean_f1": 0.7083
+        "mean_f1": 0.7182
       },
       {
         "params": {
@@ -465,7 +465,7 @@
           "max_depth": 5,
           "n_estimators": 100
         },
-        "mean_f1": 0.7364
+        "mean_f1": 0.7411
       },
       {
         "params": {
@@ -473,24 +473,24 @@
           "max_depth": 5,
           "n_estimators": 200
         },
-        "mean_f1": 0.7299
+        "mean_f1": 0.7433
       }
     ],
     "best_params": {
-      "learning_rate": 0.05,
+      "learning_rate": 0.1,
       "max_depth": 5,
       "n_estimators": 200
     },
-    "cv_best_f1": 0.7463,
-    "test_accuracy": 0.9865,
-    "test_precision": 0.8868,
+    "cv_best_f1": 0.7433,
+    "test_accuracy": 0.988,
+    "test_precision": 0.94,
     "test_recall": 0.6912,
-    "test_f1": 0.7769,
-    "test_roc_auc": 0.9765,
+    "test_f1": 0.7966,
+    "test_roc_auc": 0.9746,
     "confusion_matrix": [
       [
-        1926,
-        6
+        1929,
+        3
       ],
       [
         21,
