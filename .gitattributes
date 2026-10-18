@@ -1,0 +1,5 @@
+*.csv whitespace=cr-at-eol
+*.html -whitespace
+*.pdf binary
+*.joblib binary
+*.png binary

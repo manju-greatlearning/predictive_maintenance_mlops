@@ -1,0 +1,11 @@
+pandas
+scikit-learn
+xgboost
+joblib
+numpy
+matplotlib
+seaborn
+nbformat
+nbconvert
+ipykernel
+reportlab
